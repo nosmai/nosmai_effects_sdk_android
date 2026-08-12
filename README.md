@@ -1,12 +1,13 @@
 # Nosmai Effects SDK for Android
 
 [![Android API 21+](https://img.shields.io/badge/Android-API%2021%2B-green)](https://developer.android.com/about/versions/android-5.0)
-[![Version 3.0.1](https://img.shields.io/badge/version-3.0.1-blue)](../../releases/tag/v3.0.1)
+[![Version 3.0.2](https://img.shields.io/badge/version-3.0.2-blue)](../../releases/tag/v3.0.2)
 [![ABI arm64-v8a](https://img.shields.io/badge/ABI-arm64--v8a-lightgrey)](https://developer.android.com/ndk/guides/abis)
 
 Nosmai Effects SDK for Android is a real-time Android camera effects SDK for AR
 face filters, beauty filters, virtual makeup, face reshaping, background
-replacement, filtered video recording, and live streaming integrations.
+replacement, interactive camera games, filtered video recording, and live
+streaming integrations.
 
 It is designed for native Android camera, social media, video, live streaming,
 video chat, virtual makeup, and branded AR applications.
@@ -21,6 +22,7 @@ video chat, virtual makeup, and branded AR applications.
 | Face reshape | Face slimming plus adjustable eyes, nose, chin, jaw, lips, forehead, and brows |
 | AR face effects | Face-tracked 2D and 3D masks, stickers, particles, animations, and protected `.nosmai` packages |
 | Background effects | Background segmentation, blur, solid color, image, video, and authored background packages |
+| Interactive games | Camera-based `.nosmai` games with tap input, lifecycle controls, and game-event callbacks |
 | Local and cloud effects | Bundled packages plus catalog browsing, downloading, caching, applying, and removal |
 | Recording and streaming | Filtered video recording plus processed texture and frame output for live-streaming integrations |
 | Camera controls | Front and back camera switching, preview lifecycle, active-effect state, and typed removal controls |
@@ -31,6 +33,7 @@ video chat, virtual makeup, and branded AR applications.
 - Social, live-streaming, and video experiences
 - Virtual makeup and beauty experiences
 - Branded AR effects and interactive campaigns
+- Interactive camera games and gamified experiences
 - Background blur, replacement, and segmentation
 
 ## On-device processing
@@ -43,7 +46,7 @@ packages.
 
 | Item | Requirement |
 | --- | --- |
-| SDK version | `3.0.1` |
+| SDK version | `3.0.2` |
 | Minimum Android version | Android 5.0, API 21 |
 | Supported ABI | `arm64-v8a` |
 | Java compatibility | Java 11 |
@@ -53,7 +56,7 @@ A valid Nosmai commercial license and license key are required.
 
 ## Download
 
-Download `nosmai-sdk-3.0.1.aar` and `SHA256SUMS` from the
+Download `nosmai-sdk-3.0.2.aar` and `SHA256SUMS` from the
 [latest GitHub release](https://github.com/nosmai/nosmai_effects_sdk_android/releases/latest).
 
 Verify the downloaded artifact before integration:
