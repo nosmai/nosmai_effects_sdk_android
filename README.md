@@ -1,7 +1,7 @@
 # Nosmai Effects SDK for Android
 
 [![Android API 21+](https://img.shields.io/badge/Android-API%2021%2B-green)](https://developer.android.com/about/versions/android-5.0)
-[![Version 3.0.2](https://img.shields.io/badge/version-3.0.2-blue)](../../releases/tag/v3.0.2)
+[![Version 3.0.3](https://img.shields.io/badge/version-3.0.3-blue)](../../releases/tag/v3.0.3)
 [![ABI arm64-v8a](https://img.shields.io/badge/ABI-arm64--v8a-lightgrey)](https://developer.android.com/ndk/guides/abis)
 
 Nosmai Effects SDK for Android is a real-time Android camera effects SDK for AR
@@ -46,7 +46,7 @@ packages.
 
 | Item | Requirement |
 | --- | --- |
-| SDK version | `3.0.2` |
+| SDK version | `3.0.3` |
 | Minimum Android version | Android 5.0, API 21 |
 | Supported ABI | `arm64-v8a` |
 | Java compatibility | Java 11 |
@@ -56,7 +56,7 @@ A valid Nosmai commercial license and license key are required.
 
 ## Download
 
-Download `nosmai-sdk-3.0.2.aar` and `SHA256SUMS` from the
+Download `nosmai-sdk-3.0.3.aar` and `SHA256SUMS` from the
 [latest GitHub release](https://github.com/nosmai/nosmai_effects_sdk_android/releases/latest).
 
 Verify the downloaded artifact before integration:
@@ -67,7 +67,7 @@ shasum -a 256 -c SHA256SUMS
 
 ## Documentation
 
-See the [complete Android integration guide](https://nosmai.com/docs/effects/android/)
+See the [complete Android integration guide](https://nosmai.com/docs/effects/installation/android/)
 for installation, permissions, camera lifecycle, effects, recording, streaming,
 and troubleshooting.
 
