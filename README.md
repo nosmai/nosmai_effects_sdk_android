@@ -1,8 +1,8 @@
 # Nosmai Effects SDK for Android
 
-[![Android API 21+](https://img.shields.io/badge/Android-API%2021%2B-green)](https://developer.android.com/about/versions/android-5.0)
-[![Version 3.0.4](https://img.shields.io/badge/version-3.0.4-blue)](../../releases/tag/v3.0.4)
-[![ABI arm64-v8a](https://img.shields.io/badge/ABI-arm64--v8a-lightgrey)](https://developer.android.com/ndk/guides/abis)
+[![Android API 24+](https://img.shields.io/badge/Android-API%2024%2B-green)](https://developer.android.com/about/versions/nougat)
+[![Version 3.0.5](https://img.shields.io/badge/version-3.0.5-blue)](../../releases/tag/v3.0.5)
+[![ABI arm64-v8a and armeabi-v7a](https://img.shields.io/badge/ABI-arm64--v8a%20%7C%20armeabi--v7a-lightgrey)](https://developer.android.com/ndk/guides/abis)
 
 Nosmai Effects SDK for Android is a real-time Android camera effects SDK for AR
 face filters, beauty filters, virtual makeup, face reshaping, background
@@ -46,9 +46,9 @@ packages.
 
 | Item | Requirement |
 | --- | --- |
-| SDK version | `3.0.4` |
-| Minimum Android version | Android 5.0, API 21 |
-| Supported ABI | `arm64-v8a` |
+| SDK version | `3.0.5` |
+| Minimum Android version | Android 7.0, API 24 |
+| Supported ABIs | `arm64-v8a`, `armeabi-v7a` |
 | Java compatibility | Java 11 |
 | Native page size | 16 KB compatible |
 
@@ -56,14 +56,26 @@ A valid Nosmai commercial license and license key are required.
 
 ## Download
 
-Download `nosmai-sdk-3.0.4.aar` and `SHA256SUMS` from the
+Download `nosmai-sdk-3.0.5.aar` and `SHA256SUMS` from the
 [latest GitHub release](https://github.com/nosmai/nosmai_effects_sdk_android/releases/latest).
+
+| Artifact | Size | SHA-256 |
+| --- | ---: | --- |
+| `nosmai-sdk-3.0.5.aar` | 59,140,732 bytes (56.4 MiB) | `c1474da6106926ab1fb152e404a02666456da7bed92c2aefa6e275b356b2f58f` |
 
 Verify the downloaded artifact before integration:
 
 ```bash
 shasum -a 256 -c SHA256SUMS
 ```
+
+## What's new in 3.0.5
+
+- Added `armeabi-v7a` support for compatible 32-bit ARM Android devices.
+- Improved beauty-effect consistency.
+- Improved performance, stability, and reliability.
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## Documentation
 
