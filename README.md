@@ -1,7 +1,7 @@
 # Nosmai Effects SDK for Android
 
 [![Android API 24+](https://img.shields.io/badge/Android-API%2024%2B-green)](https://developer.android.com/about/versions/nougat)
-[![Version 3.0.5](https://img.shields.io/badge/version-3.0.5-blue)](../../releases/tag/v3.0.5)
+[![Version 3.0.6](https://img.shields.io/badge/version-3.0.6-blue)](../../releases/tag/v3.0.6)
 [![ABI arm64-v8a and armeabi-v7a](https://img.shields.io/badge/ABI-arm64--v8a%20%7C%20armeabi--v7a-lightgrey)](https://developer.android.com/ndk/guides/abis)
 
 Nosmai Effects SDK for Android is a real-time Android camera effects SDK for AR
@@ -46,7 +46,7 @@ packages.
 
 | Item | Requirement |
 | --- | --- |
-| SDK version | `3.0.5` |
+| SDK version | `3.0.6` |
 | Minimum Android version | Android 7.0, API 24 |
 | Supported ABIs | `arm64-v8a`, `armeabi-v7a` |
 | Java compatibility | Java 11 |
@@ -56,12 +56,12 @@ A valid Nosmai commercial license and license key are required.
 
 ## Download
 
-Download `nosmai-sdk-3.0.5.aar` and `SHA256SUMS` from the
+Download `nosmai-sdk-3.0.6.aar` and `SHA256SUMS` from the
 [latest GitHub release](https://github.com/nosmai/nosmai_effects_sdk_android/releases/latest).
 
 | Artifact | Size | SHA-256 |
 | --- | ---: | --- |
-| `nosmai-sdk-3.0.5.aar` | 59,140,732 bytes (56.4 MiB) | `c1474da6106926ab1fb152e404a02666456da7bed92c2aefa6e275b356b2f58f` |
+| `nosmai-sdk-3.0.6.aar` | 40,362,644 bytes (38.5 MiB) | `dd08b7de748c7e32846da1cbd46a8213cd3d3093431c89a65738bb9ef1114e06` |
 
 Verify the downloaded artifact before integration:
 
@@ -69,11 +69,11 @@ Verify the downloaded artifact before integration:
 shasum -a 256 -c SHA256SUMS
 ```
 
-## What's new in 3.0.5
+## What's new in 3.0.6
 
-- Added `armeabi-v7a` support for compatible 32-bit ARM Android devices.
-- Improved beauty-effect consistency.
-- Improved performance, stability, and reliability.
+- Improved beauty filter quality and visual consistency.
+- Added new built-in beauty filters.
+- Improved overall performance and runtime stability.
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
 
