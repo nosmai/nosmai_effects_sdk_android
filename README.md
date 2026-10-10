@@ -61,7 +61,7 @@ Download `nosmai-sdk-3.0.6.aar` and `SHA256SUMS` from the
 
 | Artifact | Size | SHA-256 |
 | --- | ---: | --- |
-| `nosmai-sdk-3.0.6.aar` | 40,362,644 bytes (38.5 MiB) | `dd08b7de748c7e32846da1cbd46a8213cd3d3093431c89a65738bb9ef1114e06` |
+| `nosmai-sdk-3.0.6.aar` | 40,361,524 bytes (38.5 MiB) | `9e1071db66078cf512ad1d7e7ee45fb00a166f672c75eb98a9cbed9ac01e3a56` |
 
 Verify the downloaded artifact before integration:
 
