@@ -3,6 +3,13 @@
 All notable public changes to the Nosmai Effects SDK for Android are documented
 in this file.
 
+## 3.0.7-beta.2
+
+- Added a GPU-backed output surface for Flutter texture previews.
+- Added frame-readiness reporting for safe preview presentation.
+- Improved processed-texture lifecycle handling for streaming integrations.
+- Improved cloud-filter preview and cache support.
+
 ## 3.0.6
 
 - Improved beauty filter quality and visual consistency.

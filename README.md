@@ -1,7 +1,7 @@
 # Nosmai Effects SDK for Android
 
 [![Android API 24+](https://img.shields.io/badge/Android-API%2024%2B-green)](https://developer.android.com/about/versions/nougat)
-[![Version 3.0.6](https://img.shields.io/badge/version-3.0.6-blue)](../../releases/tag/v3.0.6)
+[![Version 3.0.7-beta.2](https://img.shields.io/badge/version-3.0.7--beta.2-orange)](../../releases/tag/v3.0.7-beta.2)
 [![ABI arm64-v8a and armeabi-v7a](https://img.shields.io/badge/ABI-arm64--v8a%20%7C%20armeabi--v7a-lightgrey)](https://developer.android.com/ndk/guides/abis)
 
 Nosmai Effects SDK for Android is a real-time Android camera effects SDK for AR
@@ -46,7 +46,7 @@ packages.
 
 | Item | Requirement |
 | --- | --- |
-| SDK version | `3.0.6` |
+| SDK version | `3.0.7-beta.2` |
 | Minimum Android version | Android 7.0, API 24 |
 | Supported ABIs | `arm64-v8a`, `armeabi-v7a` |
 | Java compatibility | Java 11 |
@@ -56,12 +56,13 @@ A valid Nosmai commercial license and license key are required.
 
 ## Download
 
-Download `nosmai-sdk-3.0.6.aar` and `SHA256SUMS` from the
-[latest GitHub release](https://github.com/nosmai/nosmai_effects_sdk_android/releases/latest).
+This is a prerelease for integration testing. Download
+`nosmai-sdk-3.0.7-beta.2.aar` and `SHA256SUMS` from the
+[3.0.7-beta.2 GitHub prerelease](https://github.com/nosmai/nosmai_effects_sdk_android/releases/tag/v3.0.7-beta.2).
 
 | Artifact | Size | SHA-256 |
 | --- | ---: | --- |
-| `nosmai-sdk-3.0.6.aar` | 40,362,644 bytes (38.5 MiB) | `dd08b7de748c7e32846da1cbd46a8213cd3d3093431c89a65738bb9ef1114e06` |
+| `nosmai-sdk-3.0.7-beta.2.aar` | 40,446,167 bytes (38.6 MiB) | `ca61902c837cc6a5b4c6f1f5a6d11d0606d6a52cf8e3c7cbc6a10a3d111b9a60` |
 
 Verify the downloaded artifact before integration:
 
@@ -69,11 +70,12 @@ Verify the downloaded artifact before integration:
 shasum -a 256 -c SHA256SUMS
 ```
 
-## What's new in 3.0.6
+## What's new in 3.0.7-beta.2
 
-- Improved beauty filter quality and visual consistency.
-- Added new built-in beauty filters.
-- Improved overall performance and runtime stability.
+- Added a GPU-backed output surface for Flutter texture previews.
+- Added frame-readiness reporting for safe preview presentation.
+- Improved processed-texture lifecycle handling for streaming integrations.
+- Improved cloud-filter preview and cache support.
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
 
