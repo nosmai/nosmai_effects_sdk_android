@@ -42,6 +42,18 @@ Effects and camera frames are processed on the device for responsive previews.
 Internet access may still be required for licensing and cloud-delivered effect
 packages.
 
+## Android beta 3.0.8-beta.1
+
+This prerelease expands face shaping with Face Length and Head Size and
+improves live preview performance on Android.
+
+Download [the beta AAR and checksum](https://github.com/nosmai/nosmai_effects_sdk_android/releases/tag/v3.0.8-beta.1)
+and verify the archive with `shasum -a 256 -c SHA256SUMS`.
+
+| Artifact | Size | SHA-256 |
+| --- | ---: | --- |
+| `nosmai-sdk-3.0.8-beta.1.aar` | 37,956,645 bytes | `3e0d77ec06fa93a5ff1c7e38810c00d4401d9b2fd5453db783ad3f3733dcdf24` |
+
 ## Requirements
 
 | Item | Requirement |

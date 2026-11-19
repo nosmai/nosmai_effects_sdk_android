@@ -3,6 +3,12 @@
 All notable public changes to the Nosmai Effects SDK for Android are documented
 in this file.
 
+## 3.0.8-beta.1
+
+- Updated face shaping with Face Length, Head Size, and additional controls.
+- Improved live preview performance on Android devices.
+- Existing morphing methods remain available.
+
 ## 3.0.7
 
 - Improved face-tracking consistency for beauty, makeup, and combined effects.
